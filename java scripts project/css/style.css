@@ -1,0 +1,70 @@
+body{ 
+    background-color: skyblue;
+    
+    margin-top: 100px;
+
+}
+.carousel-content {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+.navigation .prev { background-color: blueviolet;
+position: absolute; 
+z-index: 10; 
+font-size: 25px;
+top: 100%;
+left: 50px;
+font-weight: 700;
+}
+
+.navigation .next { background-color: peru;
+    left: 950px;
+    position: absolute;
+    font-size: 25px;
+    z-index: 10;
+    top: 100%;
+}
+
+.navigation .nav-btn { background-color: aquamarine;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  
+  .carousel { background-color: orchid;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+   
+  }
+  .carousel img {background-color: darkcyan;
+    width: 1000px;
+    transition: all 0.3s ease;
+    border:7px solid black;
+    border-radius: 30%;
+    margin-right: 80%;
+  }
+  .caption {color: brown;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-shadow: 0in;
+  }
+  .item { width:fit-content;
+    margin: 5px;
+    position: absolute;
+    display: none;
+  }
+  .main {
+    display: block;
+  }
